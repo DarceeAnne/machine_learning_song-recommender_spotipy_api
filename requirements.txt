@@ -1,7 +1,8 @@
-streamlit==1.8.0
-spotipy==2.19.0
-pandas==1.4.1
-scikit-learn==1.0.2
-numpy==1.22.2
-Pillow==9.0.1
 
+spotipy==2.22.1
+scikit-learn==1.4.2
+matplotlib==3.8.3
+matplotlib-inline==0.1.6
+numpy==1.26.4
+pandas==2.2.1
+streamlit==1.32.2
