@@ -11,6 +11,9 @@ from PIL import Image
 import pickle
 import random
 import os
+CLIENT_ID = os.getenv("CLIENT_ID")
+CLIENT_SECRET = os.getenv("CLIENT_SECRET")
+
 
 
 def main():
