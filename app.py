@@ -10,7 +10,9 @@ import numpy as np
 from PIL import Image
 import pickle
 import random
-
+import os
+CLIENT_ID = os.getenv("spotify_client_id")
+CLIENT_SECRET = os.getenv("spotify_client_secret_id")
 
 def main():
 
