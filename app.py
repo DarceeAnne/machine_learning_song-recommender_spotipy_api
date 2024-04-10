@@ -11,13 +11,12 @@ from PIL import Image
 import pickle
 import random
 import os
-CLIENT_ID = os.getenv("spotify_client_id")
-CLIENT_SECRET = os.getenv("spotify_client_secret_id")
+
 
 def main():
 
     #Initialize SpotiPy with user credentials
-    sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=CLIENT_ID,client_secret=CLIENT_SECRET))
+    sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(CLIENT_ID, CLIENT_SECRET))
 
     # Display the image in the sidebar
     image2= Image.open('darcee.png')
