@@ -12,8 +12,8 @@ import pickle
 import random
 
 # Load environment variables
-CLIENT_ID = os.getenv("spotify_client_id")
-CLIENT_SECRET = os.getenv("spotify_client_secret_id")
+CLIENT_ID == os.getenv("spotify_client_id")
+CLIENT_SECRET == os.getenv("spotify_client_secret_id")
 
 # Authenticate with Spotify API
 from spotipy.oauth2 import SpotifyClientCredentials
