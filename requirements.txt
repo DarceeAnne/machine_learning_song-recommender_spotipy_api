@@ -5,5 +5,4 @@ spotipy==2.19.0
 Pillow==8.4.0
 matplotlib==3.4.3
 
-CLIENT_ID == os.getenv("spotify_client_id")
-CLIENT_SECRET == os.getenv("spotify_client_secret_id")
+
